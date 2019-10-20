@@ -1,0 +1,109 @@
+body{
+	background-color: white;
+	text-overflow: ellipsis;
+}
+
+.clr{
+	clear:both;
+}
+
+.container{
+	border: 1px solid black;
+	width: 50%;
+	padding-top: 0px;
+	margin-left: 300px;
+	line-height: 1.8em;
+	background-color: #333;
+	color: white;
+}
+
+.big-container{
+}
+.button{
+	padding: 20px 20px;
+	margin-top: 0px;
+	border: none;
+	font-size: 1.6em;
+	/*font-weight: bold;*/
+	width: 30%;
+}
+
+.form input[type="text"]{
+	width : 200px;
+	height: 20px;
+}
+.form input[type="number"]{
+	width : 200px;
+	height: 20px;
+}
+
+.wrapper{
+	text-align: center;
+}
+.header{
+	background-color: rgb(102, 102, 153);
+	color: white;
+	text-align: center;
+	width: 100%;
+	/*margin-left: 70px;*/
+	padding: 1px;
+	font-size: 1.6em;		/*normal text size 1.6em*/
+}
+
+
+.nav{
+	width:100%;
+}
+
+.list{
+	/*width:100%;*/
+	background-color: #333;
+	list-style: none;
+	padding-top: 20px;
+	margin-top: 1px;
+	padding-bottom: 20px;
+}
+
+.items{
+	color: white;
+	display: inline;
+	font-size: 1.2em;
+}
+
+
+
+/*.button{
+	padding: 20px 20px;
+	margin-top: 20px;
+	border: none;
+	font-size: 1.8em;
+	font-weight: bold;
+	width: 30%
+}
+*/
+a:hover{
+	color:black;
+}
+
+a:active{
+	color:black;
+}
+
+a:visited{
+	color: white;
+}
+
+.links{
+	text-decoration: none;
+	color:white;
+}
+
+
+
+.footer{
+	text-align: center;
+	margin-top: 55px;
+	background-color: white;
+	color: black;
+	width: 100%;
+}
